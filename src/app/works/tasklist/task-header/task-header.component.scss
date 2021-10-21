@@ -1,0 +1,21 @@
+.nav{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 8vh;
+     border: solid 1px #000;
+     align-items: center;
+     margin-bottom: 5%;
+
+}
+.toHW{
+     margin-left: 10px;
+}
+.child{
+     margin: 5px;
+ }
+
+
+ .active{
+     color: rgb(243, 65, 65);
+ }

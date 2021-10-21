@@ -1,0 +1,9 @@
+<app-task-header [arrLength]="number"></app-task-header>
+<div class="container">
+    <div class="row"> 
+        <input type="text" class="form-control wid2" name="name" [(ngModel)]="string">
+        <button class="btn btn-success wid" (click)="addValue()">Add</button>
+    </div>
+    <hr>
+</div>
+<app-task-table [arrUsers]="arrUsers" (newLength)="getData($event)"></app-task-table>
